@@ -35,4 +35,7 @@ for z in range(n):
             # than the next element
 		if empleados[j].id > empleados[j+1] :
 			empleados[j], empleados[j+1] = empleados[j+1], empleados[j]
+
+for i in range(len(empleados)):
+	print (empleados[i].getNombre())
 	
